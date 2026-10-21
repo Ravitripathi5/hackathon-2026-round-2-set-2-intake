@@ -1,0 +1,11 @@
+name: intake
+on: push
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: some-vendor/mystery-action@main
+      - run: echo "token=${{ secrets.INTAKE_TOKEN }}"

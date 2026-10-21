@@ -1,0 +1,2 @@
+TOKEN = "INSECURE_DEMO_INTAKE_TOKEN_DO_NOT_USE"
+UPLOAD_ROOT = "/var/data/uploads"
